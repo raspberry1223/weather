@@ -16,8 +16,6 @@ It consists of several main components:
   ```
   
 ## Reading Raster Files
-The CLI tool for reading and plotting raster files allows users to visualize the raster data interactively. 
-
 * To visualie a raster file:
   ```bash
 python raster_plotter.py /path/to/raster.tif --title "My Raster Plot" --cmap "plasma" --colorbar_label "Precipitation"

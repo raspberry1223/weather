@@ -26,7 +26,7 @@ It consists of three main components:
 ```
   
 ## Reading Raster Files
-The CLI tool for reading and plotting raster files allows users to visualize the raster data interactively. It takes the path to a TIFF file as input and optionally accepts parameters for the plot title, colormap, and colorbar label.
+The CLI tool for reading and plotting raster files allows users to visualize the raster data interactively. 
 
 * To visualie a raster file:
   ```bash

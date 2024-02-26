@@ -16,8 +16,9 @@ It consists of several main components:
   ```
   
 ## Reading Raster Files
-* To visualie a raster file:
-  ```bash
+To visualize a raster file:
+
+```bash
 python raster_plotter.py /path/to/raster.tif --title "My Raster Plot" --cmap "plasma" --colorbar_label "Precipitation"
 
 ```

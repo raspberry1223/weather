@@ -1,6 +1,7 @@
 ## Weather Data System
-It consists of three main components:
+It consists of several main components:
 
+* open-meteo API: https://open-meteo.com/en/docs/
 * Entities: Represent unique aspects like AOI, weather data, and raster data. Entities in this system are simple identifiers.
 * Components: Hold specific data related to each entity. These include the path to the AOI shapefile, weather data parameters, and raster data.
 * Systems: Contain the logic to operate on the components. The systems perform tasks such as calculating the centroid of the AOI, fetching weather data, and creating raster files for each month.

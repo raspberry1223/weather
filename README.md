@@ -13,13 +13,13 @@ It consists of several main components:
   # run the weather.py app via python
   python weather.py
   # the timespan can be set manually in the weather.py main function
-  # raster files can be visualized via the raster_plotter.py tool
+  # raster files can be visualized via the raster_reader.py tool
   ```
   
 ## Reading Raster Files
 To visualize a raster file:
 
 ```bash
-python raster_plotter.py /path/to/raster.tif --title "My Raster Plot" --cmap "plasma" --colorbar_label "Precipitation"
+python raster_reader.py /path/to/raster.tif --title "My Raster Plot" --cmap "plasma" --colorbar_label "Precipitation"
 
 ```

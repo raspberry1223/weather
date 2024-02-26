@@ -13,6 +13,7 @@ It consists of several main components:
   # run the weather.py app via python
   python weather.py
   # the timespan can be set manually in the weather.py main function
+  # raster files can be visualized via the raster_plotter.py tool
   ```
   
 ## Reading Raster Files

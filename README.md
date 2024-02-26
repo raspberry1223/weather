@@ -6,7 +6,12 @@ It consists of several main components:
 * Components: Hold specific data related to each entity. These include the path to the AOI shapefile, weather data parameters, and raster data.
 * Systems: Contain the logic to operate on the components. The systems perform tasks such as calculating the centroid of the AOI, fetching weather data, and creating raster files for each month.
 
-* Example usage is included in the weather.py main file
+* Example usage
+  ** first Install the packages by running ```bash
+  pip install -r requirements.txt
+  ```
+  
+  
   ```python
     aoi_entity = Entity("aoi")
     # Provide the file path to the aoi data
